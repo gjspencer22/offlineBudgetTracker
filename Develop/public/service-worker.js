@@ -27,7 +27,6 @@ self.addEventListener('fetch', function (e) {
 self.addEventListener('install', function (e) {
     e.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
-            return cache.addALL(FILES_TO_CACHE)
         })
     )
 })
