@@ -5,7 +5,7 @@ new WebpackPwaManifest({
   name: "Budget Tracker",
   short_name: "Tracker",
   description: "A quick budget tracking app! Input amounts to keep track of your spending!",
-  start_url: "http://localhost:3001/",
+  start_url: "http://localhost:8080/",
   background_color: "#3367D6",
   theme_color: "##3367D6",
   fingerprints: false,

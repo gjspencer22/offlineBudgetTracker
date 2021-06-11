@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "webpack": "webpack --watch",
-    "build": "webpack",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack-p",
     "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,10 +24,11 @@
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
-    "webpack": "^5.38.1"
-  },
-  "devDependencies": {
+    "webpack": "^5.38.1",
     "webpack-dev-server": "^3.11.2",
     "webpack-pwa-manifest": "^4.3.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.2"
   }
 }
