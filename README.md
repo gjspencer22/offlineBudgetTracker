@@ -8,6 +8,6 @@
  * Garrett Spencer
 
 ## Repository Link
-* https://github.com/gjspencer22/offlineBudgetTracker/tree/main
+* https://github.com/gjspencer22/offlineBudgetTracker/tree/master
 
 
